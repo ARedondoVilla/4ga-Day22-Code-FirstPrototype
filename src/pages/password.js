@@ -5,7 +5,7 @@ export default function(props) {
     return (
         <div className="container">
             <div className="jumbotron">
-                <h1>Quienes somos</h1>
+                <h1>recuperar password</h1>
             </div>
         </div>
     )

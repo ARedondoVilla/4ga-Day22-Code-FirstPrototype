@@ -8,10 +8,14 @@ export default function(props) {
     return (
         <div className="container">
             <div className="jumbotron">
-                <h1>Home page</h1>
-                <button type="button" onClick={() => actions.toggleLoader()}>
-                    {store.loading ? "Parar":"Cargar"}
-                </button>
+                <h1>Estamos in-pacientes</h1>
+                <Link  to="/registro">
+                    <button> Log In </button>
+                </Link>
+                <Link  to="/password">
+                    <h6> Recuperar contraseña </h6>
+                </Link>
+                
             </div>
         </div>
     )

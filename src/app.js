@@ -12,8 +12,17 @@ import Navbar from "./components/navbar.js"
 
 import Home from "./pages/home.js"
 import About from "./pages/about.js"
-import Contact from "./pages/contact.js"
+import List from "./pages/list.js"
 import User from "./pages/user.js"
+import Donation from "./pages/donation.js"
+import Disease from "./pages/disease.js"
+import Registro from "./pages/registro.js"
+import Password from "./pages/password.js"
+
+
+
+
+
 
 export default injectContext(function(props) {
     return (
@@ -30,8 +39,24 @@ export default injectContext(function(props) {
                         <About />
                     </Route>
 
-                    <Route path="/contact">
-                        <Contact />
+                    <Route path="/list">
+                        <List />
+                    </Route>
+
+                    <Route path="/registro">
+                        <Registro />
+                    </Route>
+
+                    <Route path="/password">
+                        <Password />
+                    </Route>
+
+                    <Route path="/donation">
+                        <Donation />
+                    </Route>
+
+                    <Route path="/disease">
+                        <Disease />
                     </Route>
 
                     <Route path="/users/:id">

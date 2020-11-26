@@ -9,6 +9,7 @@ export default function(props) {
         <div className="container">
             <div className="jumbotron">
                 <h1>Estamos in-pacientes</h1>
+                 <button> Sign In </button>
                 <Link  to="/registro">
                     <button> Log In </button>
                 </Link>
